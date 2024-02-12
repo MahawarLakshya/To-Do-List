@@ -18,7 +18,7 @@ function addTask() {
         li.appendChild(span)
     }
     input.value = "";
-    input.focus(); //get back the cursor to inut field
+    input.focus(); //get back the cursor to input field
     saveData();
 }
 
@@ -51,4 +51,3 @@ function saveData() {
 function showlist() {
     list.innerHTML = localStorage.getItem("data");
 }
-showlist();
